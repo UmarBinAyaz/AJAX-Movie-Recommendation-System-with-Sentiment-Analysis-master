@@ -1,6 +1,4 @@
 
-**Updated version of this application can be found at:** https://github.com/UmarBinAyaz/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis-master
-
 # Content-Based Movie Recommendation System with Sentiment Analysis
 
 This project is a hybrid content-based movie recommender system that uses movie metadata and user review sentiment analysis to generate personalized movie suggestions. The system integrates TMDB API for real-time movie information, uses cosine similarity and Levenshtein distance for recommendations, and applies natural language processing (NLP) with a Multinomial Naive Bayes classifier to analyze user sentiments.
