@@ -1,17 +1,24 @@
-# Content-Based-Movie-Recommender-System-with-sentiment-analysis-using-AJAX
 
-![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
-![Framework](https://img.shields.io/badge/Framework-Flask-red)
-![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-green)
-![API](https://img.shields.io/badge/API-TMDB-fcba03)
+**Updated version of this application can be found at:** https://github.com/UmarBinAyaz/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis-master
 
-**Updated version of this application can be found at:** https://github.com/kishan0725/The-Movie-Cinema
+# Content-Based Movie Recommendation System with Sentiment Analysis
 
-Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.
+This project is a hybrid content-based movie recommender system that uses movie metadata and user review sentiment analysis to generate personalized movie suggestions. The system integrates TMDB API for real-time movie information, uses cosine similarity and Levenshtein distance for recommendations, and applies natural language processing (NLP) with a Multinomial Naive Bayes classifier to analyze user sentiments.
+# ✨ Features
 
-The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
+- Movie metadata fetched dynamically from TMDB API
 
-Link to youtube demo: https://www.youtube.com/watch?v=dhVePtyECFw
+- Asynchronous interaction using AJAX
+
+- User review scraping from IMDb
+
+- Sentiment classification using NLP
+
+- Similar movie recommendations using cosine similarity and Levenshtein distance
+
+- Frontend built with HTML, CSS, JS, and jQuery
+
+- Backend implemented in Python using Flask
 
 ## The Movie Cinema
 
@@ -20,7 +27,7 @@ I've developed a similar application called "The Movie Cinema" which supports al
 
 If you can't find the movie you're searching for through auto-suggestions while typing, there's no need to worry. Simply type the name of the movie and press "enter". Even if you make some typos, it should still work fine.
 
-Source Code: [https://github.com/kishan0725/The-Movie-Cinema](https://github.com/UmarBinAyaz/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis-master/)
+Source Code: https://github.com/UmarBinAyaz/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis-master
 
 
 
@@ -42,6 +49,7 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
 
 ![Recommendation App](https://user-images.githubusercontent.com/36665975/168742738-5435cf76-1a42-4d87-94b4-999e5bfc48d3.png)
 
+
 ## Similarity Score : 
 
    How does it decide which item is most similar to the item user likes? Here come the similarity scores.
@@ -59,7 +67,6 @@ More about Cosine Similarity : [Understanding the Math behind Cosine Similarity]
 ### Sources of the datasets 
 
 1. [IMDB 5000 Movie Dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
-2. [The Movies Dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset)
 3. [List of movies in 2018](https://en.wikipedia.org/wiki/List_of_American_films_of_2018)
 4. [List of movies in 2019](https://en.wikipedia.org/wiki/List_of_American_films_of_2019)
 5. [List of movies in 2020](https://en.wikipedia.org/wiki/List_of_American_films_of_2020)
